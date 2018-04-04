@@ -1,0 +1,144 @@
+@charset "utf-8";
+#addSignUp{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 10;
+	width: 5.1rem;
+	height: 5.27rem;
+	margin-left: -2.53rem;
+	margin-top: -2.635rem;
+}
+#addSignUp ul{
+	padding-top: 0.75rem;
+}
+#addSignUp ul li{
+	position: relative;
+	margin: 0 auto 0.9rem auto;
+	width: 100%;
+	height: 0.46rem;
+	font-size: 0;
+	line-height: 0;
+	text-align: left;
+}
+
+#addSignUp ul li input{
+	display: inline-block;
+    width: 100%;
+    height: 0.82rem;
+    line-height: 0.46rem;
+    border: 1px solid #343434;
+	border-radius: 0;
+	outline: none;
+	color: #806853;
+	font-size: 0.3rem;
+	box-sizing: border-box;
+	padding-left: 0.22rem;
+	-webkit-appearance: none;
+}
+
+#addSignUp #getCode{
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: block;
+	width: 36%;
+	height: 0.82rem;
+	text-align: center;
+	background: #999999;
+	color: #fff;
+	font-size: 0.3rem;
+	line-height: 0.82rem;
+}
+#addSignUp #message{
+	width: 60%;
+}
+#addSignUp li:last-child{
+	position: absolute;
+    left: 0;
+    right:0;
+	bottom: 0;
+	border: none;	
+	height: 0.9rem;
+	margin: auto;
+}
+#addSignUp #submit{
+	position: absolute;
+    left:0;
+    right:0;
+    bottom: -0.57rem;
+    margin:auto;
+	width: 100%;
+	height: 0.82rem;
+	line-height: 0.82rem;
+	color: #fff;
+	text-align: center;
+	background: #343434;
+	font-size: 0.36rem;
+}
+
+#addSignUp li:nth-last-child(2) {
+	margin-bottom: 0;
+}
+#addSignUp li:last-child span{
+	display: block;
+	height: 0.5rem;
+	width: 100%;
+	line-height: 0.5rem;
+	text-align: center;
+	color: #a2060a;
+	font-size: 0.18rem;
+}
+
+#addSignUp .alertMessage{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.5);
+	z-index: 999;
+}
+#addSignUp .alertMessage div{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -35%;
+	margin-top: -75px;
+	width: 70%;
+	height:150px;
+	background: #f5f0ec;
+	border-radius:5px ;
+	text-align: center;
+}
+#addSignUp .alertMessage p{
+	display: inline-block;
+	margin-top: 30px;
+	font: normal 16px/28px "Microsoft YaHei";
+	color: #6d6c6c;
+}
+#addSignUp .alertMessage .message0{
+	padding-left: 35px;
+	background: url(http://s0.ifengimg.com/static/images/success_87191423.png) 0 0 no-repeat;
+	background-size: 32px 28px;
+	color: #1c8a05;
+}
+#addSignUp .alertMessage .message1{
+	padding-left:0px ;
+	background: none;
+	color: #6d6c6c;
+}
+#addSignUp .alertMessage a{
+	display: block;
+	position: absolute;
+	left: 50%;
+	bottom: 20px;
+	margin-left: -44%;
+	width: 88%;
+	height: 36px;
+	font: normal 18px/36px "Microsoft YaHei";
+	color: #fff !important;
+	background: #dc4e4c;
+	border-radius: 5px;
+	text-decoration: none !important;
+}
